@@ -86,7 +86,7 @@ if(!isBillgenrated)
 bill=bill+"Extra Cheese Added:"+cheesePrice+"/n";
 if(isToppingadded) 
 bill=bill+"Extra Toppings Added:"+toppingPrice+"/n";
-if(isPaperBagadded)
+if(!isPaperBagadded)
 bill=bill+"Paperbag Added:"+paperBagprice+"/n";
 
 bill=bill+"Total Price:"+totalPrice+"/n";
