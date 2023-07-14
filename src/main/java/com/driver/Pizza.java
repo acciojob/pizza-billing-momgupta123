@@ -2,7 +2,6 @@ package com.driver;
 
 public class Pizza {
 
-    private int price;
     private int cheesePrice;
     private int  toppingPrice;
     private int  totalPrice;
@@ -24,7 +23,7 @@ public class Pizza {
             toppingPrice=70;
         }
         else{
-            basePrice=300;
+            basePrice=400;
             toppingPrice=120;
                     }
 cheesePrice=80;
