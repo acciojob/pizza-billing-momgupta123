@@ -30,6 +30,7 @@ public class Pizza {
 cheesePrice=80;
 paperBagprice=20;
    // your code goes here
+   totalPrice=basePrice;
     bill="Base Price Of The Pizza:"+basePrice+"/n";
     }
 
