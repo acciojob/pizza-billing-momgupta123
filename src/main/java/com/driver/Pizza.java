@@ -37,7 +37,7 @@ paperBagprice=20;
     public int getPrice(){
 
 
-        return this.price;
+        return this.totalPrice;
     }
 
     public void addExtraCheese(){
