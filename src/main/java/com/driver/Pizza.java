@@ -78,20 +78,20 @@ if(!isPaperBagadded)
 
 
     public String getBill(){
-
-if(!isBillgenrated)
-{
-    isBillgenrated=true;
-    if(ischeeseAddres)
-bill=bill+"Extra Cheese Added:"+cheesePrice+"\n";
-if(isToppingadded) 
-bill=bill+"Extra Toppings Added:"+toppingPrice+"\n";
-if(!isPaperBagadded)
-bill=bill+"Paperbag Added:"+paperBagprice+"\n";
-
-bill=bill+"Total Price:"+totalPrice+"\n";
-}
-        // your code goes here
-        return this.bill;
+   if (!isBillgenrated) {
+        isBillgenrated = true;
+        bill = "Base Price Of The Pizza: " + basePrice + "\n";
+        if (ischeeseAddres)
+            bill += "Extra Cheese Added: " + cheesePrice + "\n";
+        if (isToppingadded)
+            bill += "Extra Toppings Added: " + toppingPrice + "\n";
+        if (isPaperBagadded)
+            bill += "Paperbag Added: " + paperBagprice + "\n";
+        bill += "Total Price: " + totalPrice + "\n";
     }
+    return this.bill;
 }
+
+// ... other methods
+}
+
