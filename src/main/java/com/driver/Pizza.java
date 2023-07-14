@@ -30,7 +30,7 @@ cheesePrice=80;
 paperBagprice=20;
    // your code goes here
    totalPrice=basePrice;
-    bill="Base Price Of The Pizza:"+basePrice+"/n";
+    bill="Base Price Of The Pizza:"+basePrice+"\n";
     }
 
 
@@ -83,13 +83,13 @@ if(!isBillgenrated)
 {
     isBillgenrated=true;
     if(ischeeseAddres)
-bill=bill+"Extra Cheese Added:"+cheesePrice+"/n";
+bill=bill+"Extra Cheese Added:"+cheesePrice+"\n";
 if(isToppingadded) 
-bill=bill+"Extra Toppings Added:"+toppingPrice+"/n";
+bill=bill+"Extra Toppings Added:"+toppingPrice+"\n";
 if(!isPaperBagadded)
-bill=bill+"Paperbag Added:"+paperBagprice+"/n";
+bill=bill+"Paperbag Added:"+paperBagprice+"\n";
 
-bill=bill+"Total Price:"+totalPrice+"/n";
+bill=bill+"Total Price:"+totalPrice+"\n";
 }
         // your code goes here
         return this.bill;
